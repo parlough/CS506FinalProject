@@ -1,10 +1,16 @@
 import numpy
+import pandas as pd
 from sklearn import linear_model
 #survey results are n = 20, each in {0,1,2,3,4}
 
 reg = linear_model.LinearRegression()
 regRidge = linear_model.Ridge(alpha=0.5)
 regLasso = linear_model.Lasso(alpha=0.1)
+
+# Roman: this code takes the data from my sample CSV and prints
+# the array we need for ML. Please update to this when you are ready!
+df = pd.read_csv('myCopy.csv')
+print(df.values[:,11:])
 
 #mock survey data for 5 people
 mock_survey_data = [[4,1,0,4,0,1,3,4,4,3,3,2,3,0,1,0,0,1,0,3], #"democrat"
