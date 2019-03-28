@@ -83,6 +83,7 @@ public class ReviewActivity extends AppCompatActivity {
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 String name = dataSnapshot.child("candidateName").getValue(String.class);
                 int rank = dataSnapshot.child("ranking").getValue(int.class);
+
                 RankPair rankPair = new RankPair(name, rank);
                 candidateNames.add(rankPair);
                 Collections.sort(candidateNames, new Comparator<RankPair>() {

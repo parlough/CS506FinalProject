@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class SettingsActivity extends AppCompatActivity {
 
-    private Button signOutButton;
+    private Button signOutButton, resultsButton, rankingButton;
     private TextView currentUser;
 
     //Firebase Authentication object
@@ -29,8 +29,11 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        signOutButton = (Button) findViewById(R.id.sign_out_button);
+        signOutButton = (Button) findViewById(R.id.button_sign_out);
         currentUser = (TextView) findViewById(R.id.currentUserText);
+        resultsButton = (Button) findViewById(R.id.button_results);
+        rankingButton = (Button) findViewById(R.id.button_ranking);
+
 
         //Get Firebase authentication instance
         mAuth = FirebaseAuth.getInstance();
@@ -47,6 +50,24 @@ public class SettingsActivity extends AppCompatActivity {
 
                 //Direct user to ranking page
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        resultsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Direct user to review page
+                Intent intent = new Intent(getApplicationContext(), ReviewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        rankingButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //Direct user to ranking page
+                Intent intent = new Intent(getApplicationContext(), RankingActivity.class);
                 startActivity(intent);
             }
         });
