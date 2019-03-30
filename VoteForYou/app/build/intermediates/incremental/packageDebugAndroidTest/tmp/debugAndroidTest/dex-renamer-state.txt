@@ -1,0 +1,7 @@
+#Fri Mar 29 22:52:00 CDT 2019
+base.0=/home/porpentina/cs506/VoteForYou/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/porpentina/cs506/VoteForYou/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/out

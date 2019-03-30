@@ -52,9 +52,10 @@ public class MainActivity extends AppCompatActivity {
     //helper for sign in button press
     public void openSignIn()    {
 
+        /*
         Toast myToast = Toast.makeText(getApplicationContext(), "Got here.", Toast.LENGTH_SHORT);
         myToast.show();
-
+        */
 
         Intent intent = new Intent(this, SignInActivity.class);
         startActivity(intent);

@@ -18,17 +18,22 @@ import com.google.firebase.database.ValueEventListener;
 
 public class SettingsActivity extends AppCompatActivity {
 
+    //activity elements
     private Button signOutButton, resultsButton, rankingButton;
     private TextView currentUser;
 
     //Firebase Authentication object
     private FirebaseAuth mAuth;
 
+    //exection starts here
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //default
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
+        //initialize activity elements
         signOutButton = (Button) findViewById(R.id.button_sign_out);
         currentUser = (TextView) findViewById(R.id.currentUserText);
         resultsButton = (Button) findViewById(R.id.button_results);
@@ -41,6 +46,7 @@ public class SettingsActivity extends AppCompatActivity {
         //Set the users name- A basic model for how to get user data in general
         setUserName();
 
+        //sign out - go to first page
         signOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +60,7 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
+        //results button - open activity
         resultsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,6 +70,7 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
+        //ranking button - open activity
         rankingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,6 +81,7 @@ public class SettingsActivity extends AppCompatActivity {
         });
     }
 
+    //obtain the current user's name and display it
     private void setUserName(){
         String UID = mAuth.getCurrentUser().getUid();
         DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference("Users").child(UID);
@@ -89,6 +98,4 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }

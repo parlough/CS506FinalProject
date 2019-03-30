@@ -1,0 +1,288 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3e07be83a09b83fc201be2c93073ceff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/78c06aa2f55a01c6581ab4887785d3a7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/6e22ea593cbb0f5380f02744eab5cc79/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/1304f0b634f9c67dbb54547ca4be32cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/c490c86a389093b3c8751cc2a47bf107/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/a6162b107f0c76e748be5a5f4ca10bd2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c45403161ec8733c762a090f38e979dc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/2f188814d30283c822d4e5454a684032/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bedc38e3e340bfe367ff45d0a86148a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/182165212682e45e13f47c034501bc59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f127c712a59948e45af35ef6c539de85/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1b40e7de9dd57a82551d6371503d8bdb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2c4389fd46932b2676295d9671ed8a66/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4510b7aa7545bcacba270db82771b385/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3a035f4a42e653a65e22528fad08a7e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/510beffcaa70fb06acbbd920b85a2ef3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1c9491d411a2c153c3d3112df4938737/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2b731c72b5547896d7c7c23bf133da5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2a4bb51b98b48408c498775a2ce38124/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/01fcaa83cd9b7381c9908ef543bf6bcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/67f1140d9e5ada0a94fe73f2aaffb745/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5e4fdb55eaaaebaf9ccbc678cad77fd6/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5203de81a34d2c5a5879d98212779368/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec030390ecbc9629c34cc155708e61fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7c514e8c7aeede62d90053a908a97822/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94bd434250baf5d92748d5ea5c5148a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/03e3616e5e94533c420cd0ffd5e3e4d8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ac4cb6a79e53c711408ec32bb6f9408/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a41c15c17d6fee5ee0bd57ff39f5089e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/28b2ced5029a0e9019a719e8b066525a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7e50b24e1e8b2ffb7b0f7df3b84a3fac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ce049a9a5047e38b94b17d0e3488f06f/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/78c06aa2f55a01c6581ab4887785d3a7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/78c06aa2f55a01c6581ab4887785d3a7/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/c490c86a389093b3c8751cc2a47bf107/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/c490c86a389093b3c8751cc2a47bf107/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:8:5-14:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c45403161ec8733c762a090f38e979dc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c45403161ec8733c762a090f38e979dc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5e4fdb55eaaaebaf9ccbc678cad77fd6/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5e4fdb55eaaaebaf9ccbc678cad77fd6/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.voteforyou.SettingsActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:12:9-63
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:12:19-51
+activity#com.example.voteforyou.RankingActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:13:9-53
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:13:19-50
+activity#com.example.voteforyou.ReviewActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:14:9-52
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:14:19-49
+activity#com.example.voteforyou.SignUpActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:15:9-52
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:15:19-49
+activity#com.example.voteforyou.SignInActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:16:9-52
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:16:19-49
+activity#com.example.voteforyou.MainActivity
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3e07be83a09b83fc201be2c93073ceff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/3e07be83a09b83fc201be2c93073ceff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/78c06aa2f55a01c6581ab4887785d3a7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/78c06aa2f55a01c6581ab4887785d3a7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/6e22ea593cbb0f5380f02744eab5cc79/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/6e22ea593cbb0f5380f02744eab5cc79/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/1304f0b634f9c67dbb54547ca4be32cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/1304f0b634f9c67dbb54547ca4be32cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/c490c86a389093b3c8751cc2a47bf107/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/c490c86a389093b3c8751cc2a47bf107/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/a6162b107f0c76e748be5a5f4ca10bd2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/a6162b107f0c76e748be5a5f4ca10bd2/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:5:5-6:37
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c45403161ec8733c762a090f38e979dc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/c45403161ec8733c762a090f38e979dc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/2f188814d30283c822d4e5454a684032/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-15.0.1.aar/2f188814d30283c822d4e5454a684032/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bedc38e3e340bfe367ff45d0a86148a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bedc38e3e340bfe367ff45d0a86148a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/182165212682e45e13f47c034501bc59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/182165212682e45e13f47c034501bc59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f127c712a59948e45af35ef6c539de85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/f127c712a59948e45af35ef6c539de85/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1b40e7de9dd57a82551d6371503d8bdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1b40e7de9dd57a82551d6371503d8bdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2c4389fd46932b2676295d9671ed8a66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2c4389fd46932b2676295d9671ed8a66/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4510b7aa7545bcacba270db82771b385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/4510b7aa7545bcacba270db82771b385/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3a035f4a42e653a65e22528fad08a7e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3a035f4a42e653a65e22528fad08a7e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/510beffcaa70fb06acbbd920b85a2ef3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/510beffcaa70fb06acbbd920b85a2ef3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1c9491d411a2c153c3d3112df4938737/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/1c9491d411a2c153c3d3112df4938737/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2b731c72b5547896d7c7c23bf133da5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/2b731c72b5547896d7c7c23bf133da5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2a4bb51b98b48408c498775a2ce38124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2a4bb51b98b48408c498775a2ce38124/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/01fcaa83cd9b7381c9908ef543bf6bcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/01fcaa83cd9b7381c9908ef543bf6bcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/67f1140d9e5ada0a94fe73f2aaffb745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/67f1140d9e5ada0a94fe73f2aaffb745/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/f2877b181cc25abff331e9a0f57adb22/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5e4fdb55eaaaebaf9ccbc678cad77fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/5e4fdb55eaaaebaf9ccbc678cad77fd6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5203de81a34d2c5a5879d98212779368/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/5203de81a34d2c5a5879d98212779368/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec030390ecbc9629c34cc155708e61fe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ec030390ecbc9629c34cc155708e61fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7c514e8c7aeede62d90053a908a97822/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/7c514e8c7aeede62d90053a908a97822/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94bd434250baf5d92748d5ea5c5148a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/94bd434250baf5d92748d5ea5c5148a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/03e3616e5e94533c420cd0ffd5e3e4d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/03e3616e5e94533c420cd0ffd5e3e4d8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ac4cb6a79e53c711408ec32bb6f9408/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/1ac4cb6a79e53c711408ec32bb6f9408/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a41c15c17d6fee5ee0bd57ff39f5089e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a41c15c17d6fee5ee0bd57ff39f5089e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/28b2ced5029a0e9019a719e8b066525a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/28b2ced5029a0e9019a719e8b066525a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7e50b24e1e8b2ffb7b0f7df3b84a3fac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7e50b24e1e8b2ffb7b0f7df3b84a3fac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ce049a9a5047e38b94b17d0e3488f06f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ce049a9a5047e38b94b17d0e3488f06f/AndroidManifest.xml:20:5-44
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		ADDED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+		INJECTED from /home/porpentina/cs506/VoteForYou/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:31:9-35:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.3.aar/ba77a7ed4cc3ff5d82e0d7b5efc731c3/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/01c6d31cdbe3a95e0cebb765c9eaf297/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/a6162b107f0c76e748be5a5f4ca10bd2/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/a6162b107f0c76e748be5a5f4ca10bd2/AndroidManifest.xml:8:22-64
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:9:9-13:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:11:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/c4d663ff447d0a5a50c38b9947f40f04/AndroidManifest.xml:10:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/porpentina/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8d725fdbbc25bfbc5dcfe14d4ac8a3bb/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/0ed0f2c525cc41b7b17a7fb60e9e0d58/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/porpentina/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5ed227519ccd078962ec12abe34e9fde/AndroidManifest.xml:27:13-51

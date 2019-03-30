@@ -48,51 +48,71 @@ public class SignInActivity extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 submitHelper();
             }
         });
     }
-        private void submitHelper(){
 
-            //Get login credentials from UI
-            String email = emailText.getText().toString().trim();
-            String password = passwordText.getText().toString().trim();
+    private void submitHelper() {
 
-            //Email cannot be empty
-            if(email.isEmpty()){
-                emailText.setError("Enter an email address");
-                emailText.requestFocus();
-                return;
-            }
+        //Get login credentials from UI
+        String email = emailText.getText().toString().trim();
+        String password = passwordText.getText().toString().trim();
 
-            //Password cannot be empty
-            if(password.isEmpty()){
-                passwordText.setError("Enter a password");
-                passwordText.requestFocus();
-                return;
-            }
-
-            //Attempt to sign in user with credentials from UI
-            mAuth.signInWithEmailAndPassword(email, password)
-                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
-                                //Login was successful
-                                Toast.makeText(getApplicationContext(), "Login is successful", Toast.LENGTH_LONG).show();
-                                //Direct user into app
-                                Intent intent = new Intent(getApplicationContext(), ReviewActivity.class);
-                                startActivity(intent);
-                            } else {
-                                //Login was not successful
-                                Toast.makeText(getApplicationContext(), "Login is not successful", Toast.LENGTH_LONG).show();
-                            }
-                        }
-                    });
+        //Email cannot be empty
+        if (email.isEmpty()) {
+            blankEmailResponse(emailText);
+            return;
         }
 
+        //Password cannot be empty
+        if (password.isEmpty()) {
+            blankPasswordResponse(passwordText);
+            return;
+        }
 
+        //Attempt to sign in user with credentials from UI
+        attemptLogin(mAuth, email, password);
+    }
 
+    /**
+     * This method ensures that if an email is empty, our app correctly sets up an error.
+     *
+     * @param emailText the email entered at the signin prompt.
+     */
 
+    protected void blankEmailResponse(EditText emailText) {
+        emailText.setError("Enter an email address");
+        emailText.requestFocus();
+    }
+
+    /**
+     * This method ensures that if a password is empty, our app correctly sets up an error.
+     *
+     * @param passwordText the password entered at the signin prompt
+     */
+
+    protected void blankPasswordResponse(EditText passwordText) {
+        passwordText.setError("Enter a password");
+        passwordText.requestFocus();
+    }
+
+    protected void attemptLogin(FirebaseAuth mAuth, String email, String password) {
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Login was successful
+                            Toast.makeText(getApplicationContext(), "Login is successful", Toast.LENGTH_LONG).show();
+                            // Direct user into app
+                            Intent intent = new Intent(getApplicationContext(), ReviewActivity.class);
+                            startActivity(intent);
+                        } else {
+                            // Login was not successful
+                            Toast.makeText(getApplicationContext(), "Login is not successful", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+    }
 }

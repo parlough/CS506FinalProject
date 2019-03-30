@@ -59,59 +59,51 @@ public class SignUpActivity extends AppCompatActivity {
         });
     }
 
-    //handle button submit - get strings from edittexts, try to sign in, launch other activity
-    private void submitHelper(){
-        //Get the sign in credentials
+    // handle button submit - get strings from edittexts, try to sign in, launch other activity
+    private void submitHelper() {
+        // Get the sign in credentials
         String email = emailText.getText().toString().trim();
         String password = passwordText.getText().toString().trim();
 
-        //Email cannot be empty
-        if(email.isEmpty()){
-            emailText.setError("Enter an email address");
-            emailText.requestFocus();
+        // Email cannot be empty
+        if(blankEmailResponse(emailText)){
             return;
         }
 
-        //Email must be in a standard email form
-        if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-            emailText.setError("Enter a valid email address");
-            emailText.requestFocus();
+        // Email must be in a standard email form
+        if(ensureValidEmail(emailText)){
             return;
         }
 
-        //Password cannot be empty
-        if(password.isEmpty()){
-            passwordText.setError("Enter a password");
-            passwordText.requestFocus();
+        // Password cannot be empty
+        if(blankPasswordResponse(passwordText)){
             return;
         }
 
-        //Password must be at least 6 characters long
-        if(password.length() < 6){
-            passwordText.setError("Minimum length of a password should be 6");
-            passwordText.requestFocus();
+
+        // Password must be at least 6 characters long
+        if (ensureCorrectPasswordLength(passwordText)) {
             return;
         }
 
-        //Email and Password must be valid. Attempt to login
+        // Email and Password must be valid. Attempt to login
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            //Define a new user object with name and email values from UI
+                            // Define a new user object with name and email values from UI
                             User user = new User(nameText.getText().toString().trim(), emailText.getText().toString().trim());
 
-                            //Add the user to the database- UID is the key to join with user auth table
+                            // Add the user to the database- UID is the key to join with user auth table
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
-                                    if(task.isSuccessful()){
+                                    if (task.isSuccessful()) {
                                         Toast.makeText(getApplicationContext(), "Store is successful", Toast.LENGTH_LONG).show();
-                                    }
-                                    else{
+                                    } else {
                                         Toast.makeText(getApplicationContext(), "Store is not successful", Toast.LENGTH_LONG).show();
                                     }
                                 }
@@ -127,4 +119,70 @@ public class SignUpActivity extends AppCompatActivity {
                     }
                 });
     }
+
+    /**
+     * This method ensures that if an email is empty, our app correctly sets up an error.
+     *
+     * @param emailText the email entered at the signin prompt.
+     */
+
+    protected boolean blankEmailResponse(EditText emailText) {
+        String email = emailText.getText().toString().trim();
+        if(email.isEmpty()) {
+            emailText.setError("Enter an email address");
+            emailText.requestFocus();
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * This method ensures that if an email is poorly formatted, our app sets up the right error.
+     *
+     * @param emailText the email entered at the signin prompt.
+     */
+
+    protected boolean ensureValidEmail(EditText emailText) {
+        String email = emailText.getText().toString().trim();
+        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            emailText.setError("Enter a valid email address");
+            emailText.requestFocus();
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * This method ensures that if a password is empty, our app correctly sets up an error.
+     *
+     * @param passwordText the password entered at the signin prompt
+     */
+
+    protected boolean blankPasswordResponse(EditText passwordText) {
+
+        String password = passwordText.getText().toString().trim();
+        if (password.isEmpty()) {
+            passwordText.setError("Enter a password");
+            passwordText.requestFocus();
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * This method ensures that if a password is too short, our app correctly sets up an error.
+     *
+     * @param passwordText the password entered at the signin prompt
+     */
+
+    protected boolean ensureCorrectPasswordLength(EditText passwordText) {
+        String password = passwordText.getText().toString().trim();
+        if (password.length() < 6) {
+            passwordText.setError("Minimum length of a password should be 6");
+            passwordText.requestFocus();
+            return true;
+        }
+        return false;
+    }
+
 }
