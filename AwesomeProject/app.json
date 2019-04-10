@@ -1,6 +1,7 @@
+
 {
   "expo": {
-    "name": "AwesomeProject",
+    "name": "Awesome",
     "slug": "AwesomeProject",
     "privacy": "public",
     "sdkVersion": "32.0.0",
@@ -23,7 +24,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.compSci506.awesomeApp"
+    },
+    "android": {
+      "package": "com.compSci506.awesomeApp"
     }
+
   }
 }

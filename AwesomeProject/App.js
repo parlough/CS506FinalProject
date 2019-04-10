@@ -3,6 +3,19 @@ import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
 
+import * as firebase from "firebase";
+
+var config = {
+  apiKey: "AIzaSyACp7v7WeJupIvyaRpTOQPcEytuDFw6us0",
+  authDomain: "voteforyou-e6bf6.firebaseapp.com",
+  databaseURL: "https://voteforyou-e6bf6.firebaseio.com",
+  projectId: "voteforyou-e6bf6",
+  storageBucket: "voteforyou-e6bf6.appspot.com"
+};
+
+firebase.initializeApp(config);
+
+
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
@@ -36,7 +49,7 @@ export default class App extends React.Component {
       Font.loadAsync({
         // This is the font that we are using for our tab bar
         ...Icon.Ionicons.font,
-        // We include SpaceMono because we use it in HomeScreen.js. Feel free
+        // We include SpaceMono because we use it in ReviewScreen.js. Feel free
         // to remove this if you are not using it in your app
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
       }),
