@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 
 import * as firebase from "firebase";
+import { BorderlessButton } from 'react-native-gesture-handler';
 
 export default class ReviewScreen extends React.Component {
   static navigationOptions = {
@@ -20,7 +21,7 @@ export default class ReviewScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      <Text>Reccomended Candidates</Text>
+      <Text style={styles.text}>Reccomended Candidates</Text>
         <FlatList
           data={[
             {key: 'Cory Booker'},
@@ -32,7 +33,7 @@ export default class ReviewScreen extends React.Component {
           renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
         />
 
-      <Text>Top Issues</Text>
+      <Text style={styles.text}>Top Issues</Text>
         <FlatList
           data={[
             {key: 'Gun Control'},
@@ -59,6 +60,13 @@ const styles = StyleSheet.create({
     padding: 10,
     fontSize: 18,
     height: 44,
+    textAlign: 'center'
+  },
+  text: {
+    textAlign: 'center',
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 24
   },
 })
 

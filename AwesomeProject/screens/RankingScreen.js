@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet, Text } from 'react-native';
+import { ScrollView, StyleSheet, Text, Image } from 'react-native';
 import { Button } from 'native-base';
 import * as firebase from "firebase";
 
@@ -27,21 +27,23 @@ export default class RankingScreen extends React.Component {
     })
 
     //Increment to next candidate
-    if(this.state.currentCandidateIndex < this.state.candidates.length - 1){
-      var newVal = this.state.currentCandidateIndex + 1
-      this.setState( {
-        currentCandidateIndex: this.state.currentCandidateIndex + 1,
-        currentCandidate: this.state.candidates[newVal]
-      })
-    }
+    var newVal = (this.state.currentCandidateIndex + 1)%5
+    this.setState( {
+      currentCandidateIndex: (this.state.currentCandidateIndex + 1)%5,
+      currentCandidate: this.state.candidates[newVal]
+    })
   }
 
   render() {
     return (
       <ScrollView style={styles.container}>
-      <Text>Candidate: {this.state.currentCandidate}</Text>
-
-      <Button style={{marginTop: 20}}
+      <Text style={styles.text}>Candidate: {this.state.currentCandidate}</Text>
+      <Text style={styles.textSmall}>Party:</Text>
+      <Image
+          style={styles.image}
+          source={uri='https://122g2g321ipu7384u15dtr81-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/THUMB_Cory-Booker.jpg'}
+        />
+      <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
             success
@@ -50,7 +52,7 @@ export default class RankingScreen extends React.Component {
         <Text>Great</Text>
       </Button>
 
-      <Button style={{marginTop: 20}}
+      <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
             success
@@ -59,7 +61,7 @@ export default class RankingScreen extends React.Component {
         <Text>Good</Text>
       </Button>
 
-      <Button style={{marginTop: 20}}
+      <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
             success
@@ -68,7 +70,7 @@ export default class RankingScreen extends React.Component {
         <Text>Average</Text>
       </Button>
 
-      <Button style={{marginTop: 20}}
+      <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
             success
@@ -77,7 +79,7 @@ export default class RankingScreen extends React.Component {
         <Text>Lacking</Text>
       </Button>
 
-      <Button style={{marginTop: 20}}
+      <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
             success
@@ -97,5 +99,26 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 15,
     backgroundColor: '#fff',
+  },
+
+  image: {
+    width: 150,
+    height: 150,
+    justifyContent: 'center'
+  },
+  
+  text: {
+    textAlign: 'center',
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 24
+  },
+
+  textSmall: {
+    textAlign: 'center',
+    paddingTop: 15,
+    color: 'black',
+    fontWeight: 'bold',
+    fontSize: 16
   },
 });

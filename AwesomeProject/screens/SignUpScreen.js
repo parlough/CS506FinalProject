@@ -62,6 +62,7 @@ export default class SignUpScreen extends React.Component {
         return (
             <Container style={styles.container}>
                 <Form>
+                <Text style={styles.text}>Vote For You!</Text>
                     <Item floatingLabel>
                         <Label>Name</Label>
                         <Input
@@ -133,6 +134,13 @@ const styles = StyleSheet.create({
         padding: 10
     },
 
+    text: {
+        textAlign: 'center',
+            color: 'black',
+            fontFamily: 'AmericanTypewriter',
+            fontSize: 40
+    },
+    
     signupTextCont:{
         flexGrow: 1,
         alignItems: 'flex-end',

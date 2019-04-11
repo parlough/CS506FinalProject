@@ -1,6 +1,7 @@
 import React from 'react';
-import { Text, StyleSheet, View, TextInput, ScrollView, TouchableOpacity} from 'react-native';
+import { Text, StyleSheet, View, TextInput, ScrollView, TouchableOpacity } from 'react-native';
 import {Container, Content, Header, Form, Input, Item, Button, Label} from "native-base"
+import { AppRegistry, Image } from 'react-native';
 import * as firebase from "firebase";
 
 
@@ -52,9 +53,12 @@ loginUser = (email, password, context) =>{
 }
 
 render() {
+
     return (
+      
       <Container style={styles.container }>
         <Form>
+          <Text style={styles.text}>Vote For You!</Text>
           <Item floatingLabel>
             <Label>Email</Label>
             <Input
@@ -74,7 +78,7 @@ render() {
               />
            </Item>
 
-           <Button style={{marginTop: 20}}
+           <Button style={{color: 'black', marginTop: 20}}
             full
             rounded
             success
@@ -84,7 +88,7 @@ render() {
             </Button>
 
             <View style = {styles.signupTextCont}>
-              <Text style = {styles.signUpText}>Don't have an account yet?</Text>
+              <Text style = {styles.signUpText}>Don't have an account yet? </Text>
               <TouchableOpacity
               onPress={()=> this.props.navigation.navigate('SignUp')}
               ><Text style = {styles.signupButton} >Signup</Text></TouchableOpacity>
@@ -106,15 +110,22 @@ render() {
   }
     
 }
-
-
+    
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffff',
+    backgroundColor: 'white',
     justifyContent: 'center',
     padding: 10
   },
+
+  text: {
+    textAlign: 'center',
+        color: 'black',
+        fontFamily: 'AmericanTypewriter',
+        fontSize: 40
+  },
+
   signupTextCont:{
     flexGrow: 1,
     alignItems: 'flex-end',
