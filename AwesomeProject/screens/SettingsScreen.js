@@ -45,6 +45,12 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffff',
     justifyContent: 'center',
     padding: 10
+  },
+
+  name: {
+    padding: 50,
+    fontSize: 24,
+    fontFamily: 'AmericanTypewriter'
   }
 
 })

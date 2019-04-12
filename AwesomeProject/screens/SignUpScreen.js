@@ -93,7 +93,7 @@ export default class SignUpScreen extends React.Component {
                     <Button style={{ marginTop: 20 }}
                         full
                         rounded
-                        success
+                        color="skyblue"
                         onPress={() => this.signUpUser(this.state.email, this.state.password, this.state.name, this)}
                     >
                         <Text style={{ color: 'white' }}>Sign Up</Text>

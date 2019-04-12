@@ -24,29 +24,26 @@ export default class ReviewScreen extends React.Component {
 
   componentDidMount(){
     return fetch("https://ml.googleapis.com/v1/projects/CS506FinalProject/models/most_important_issue/versions/mostimportantissuev1:predict", {
-    method: 'POST',
-    headers: {
-    Accept: 'application/json',
-    'Content-Type': 'application/json',
-    'Authorization': 'Bearer `gcloud auth print-access-token`'
-  },
-  body: JSON.stringify({
-    instances: '[[4,1,0,4,0,1,3,4,4,3,3,2,3,0,1,0,0,1,0,3],[0,3,3,0,4,3,0,1,0,0,0,0,1,3,3,3,4,3,3,1]]'
-  }),
-}).then((response) => response.json())
-      .then((responseJson) => {
-
-        this.setState({
-          isLoading: false,
-          dataSource: responseJson.predictions,
-        }, function(){
+      method: 'POST',
+      headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer `gcloud auth print-access-token`'
+      },
+      body: JSON.stringify({
+        instances: '[[4,1,0,4,0,1,3,4,4,3,3,2,3,0,1,0,0,1,0,3],[0,3,3,0,4,3,0,1,0,0,0,0,1,3,3,3,4,3,3,1]]'
+      }),
+    }).then((response) => response.json())
+    .then((responseJson) => {
+      this.setState({
+        isLoading: false,
+        dataSource: responseJson.predictions,
+      }, function(){
 	      console.log(responseJson);
-        });
-
-      })
-      .catch((error) =>{
-        console.error(error);
       });
+    }).catch((error) =>{
+      console.error(error);
+    });
   }
 
   render() {
@@ -61,13 +58,13 @@ export default class ReviewScreen extends React.Component {
     return (
       <View style={styles.container}>
       <Text>Hello, world!</Text>
-	<FlatList
+	    <FlatList
           data={this.state.dataSource}
           renderItem={this._renderItem}
         />
 <Text>ejrlkejlj</Text>
 
-      <Text style={styles.text}>Reccomended Candidates</Text>
+      <Text style={styles.text}>Recomended Candidates</Text>
         <FlatList
           data={[
             {key: 'Cory Booker'},

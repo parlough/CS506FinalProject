@@ -14,7 +14,10 @@ export default class RankingScreen extends React.Component {
     this.state = ({
       currentCandidate: 'Cory Booker',
       currentCandidateIndex: 0,
-      candidates: ["Cory Booker", "Donald Trump", "Ted Cruz", "Kamala Harris", "Barack Obama"]
+      candidates: ["Cory Booker", "Donald Trump", "Ted Cruz", "Kamala Harris", "Barack Obama"],
+      currentParty: 'Democratic',
+      currentPartyIndex: 0,
+      parties: ["Democratic", "Republican", "Republican", "Democratic", "Democratic"]
     })
   }
 
@@ -30,7 +33,9 @@ export default class RankingScreen extends React.Component {
     var newVal = (this.state.currentCandidateIndex + 1)%5
     this.setState( {
       currentCandidateIndex: (this.state.currentCandidateIndex + 1)%5,
-      currentCandidate: this.state.candidates[newVal]
+      currentCandidate: this.state.candidates[newVal],
+      currentParty: this.state.parties[(this.state.currentPartyIndex + 1)%5],
+      currentPartyIndex: (this.state.currentPartyIndex + 1)%5
     })
   }
 
@@ -38,7 +43,7 @@ export default class RankingScreen extends React.Component {
     return (
       <ScrollView style={styles.container}>
       <Text style={styles.text}>Candidate: {this.state.currentCandidate}</Text>
-      <Text style={styles.textSmall}>Party:</Text>
+      <Text style={styles.textSmall}>Party: {this.state.currentParty}</Text>
       <Button style={{marginTop: 20, marginLeft: 25, marginRight: 25}}
             full
             rounded
