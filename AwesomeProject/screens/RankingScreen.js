@@ -14,7 +14,9 @@ export default class RankingScreen extends React.Component {
     this.state = ({
       currentCandidate: 'Cory Booker',
       currentCandidateIndex: 0,
-      candidates: ["Cory Booker", "Donald Trump", "Ted Cruz", "Kamala Harris", "Barack Obama"]
+      candidates: ["Cory Booker", "Donald Trump", "Ted Cruz", "Kamala Harris", "Barack Obama"],
+      parties: ['Democratic', 'Republican', 'Republican', 'Democratic', 'Democratic'],
+      currentParty: 'Democratic'
     })
   }
 
@@ -30,7 +32,8 @@ export default class RankingScreen extends React.Component {
     var newVal = (this.state.currentCandidateIndex + 1)%5
     this.setState( {
       currentCandidateIndex: (this.state.currentCandidateIndex + 1)%5,
-      currentCandidate: this.state.candidates[newVal]
+      currentCandidate: this.state.candidates[newVal],
+      currentParty: this.state.parties[newVal]
     })
   }
 
@@ -38,7 +41,7 @@ export default class RankingScreen extends React.Component {
     return (
       <ScrollView style={styles.container}>
       <Text style={styles.text}>Candidate: {this.state.currentCandidate}</Text>
-      <Text style={styles.textSmall}>Party:</Text>
+      <Text style={styles.textSmall}>Party: {this.state.currentParty}</Text>
       <Image
           style={styles.image}
           source={uri='https://122g2g321ipu7384u15dtr81-wpengine.netdna-ssl.com/wp-content/uploads/2016/03/THUMB_Cory-Booker.jpg'}
