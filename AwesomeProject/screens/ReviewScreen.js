@@ -12,6 +12,8 @@ import {
 import * as firebase from "firebase";
 import { BorderlessButton } from 'react-native-gesture-handler';
 
+//require("firebase/functions");
+
 export default class ReviewScreen extends React.Component {
   static navigationOptions = {
     title: "Review",

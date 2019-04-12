@@ -15,6 +15,12 @@ var config = {
 
 firebase.initializeApp(config);
 
+require("firebase/functions");
+
+var functions = firebase.functions();
+
+var testApi = firebase.functions().httpsCallable('testApi');
+testApi();
 
 export default class App extends React.Component { 
   state = {
