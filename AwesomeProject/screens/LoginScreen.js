@@ -81,7 +81,7 @@ render() {
            <Button style={{color: 'black', marginTop: 20}}
             full
             rounded
-            success
+            color="skyblue"
             onPress={()=> this.loginUser(this.state.email, this.state.password, this)}
             >
             <Text style={{color: 'white'}}>Login</Text>
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
         color: 'black',
-        //fontFamily: 'AmericanTypewriter',
+        fontFamily: 'AmericanTypewriter',
         fontSize: 40
   },
 

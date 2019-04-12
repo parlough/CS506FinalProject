@@ -27,7 +27,7 @@ export default class SettingsScreen extends React.Component {
            <Button style={{marginTop: 20}}
             full
             rounded
-            success
+            color="skyblue"
             onPress={()=> this.SignOut(this)}
             >
             <Text style={{color: 'white'}}>Sign Out</Text>

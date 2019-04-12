@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {
+  AppRegistry,
+  ListView,
   Text,
   ActivityIndicator,
   View,
@@ -8,8 +10,7 @@ import {
 } from 'react-native';
 
 import * as firebase from "firebase";
-import _ from 'lodash';
-
+import { BorderlessButton } from 'react-native-gesture-handler';
 
 export default class ReviewScreen extends React.Component {
   static navigationOptions = {
@@ -18,81 +19,83 @@ export default class ReviewScreen extends React.Component {
 
   constructor(props){
     super(props);
-
-    this.state = {
-      loading: false,
-      friends: []
-    }
+    this.state ={ isLoading: true}
   }
 
-  updateScreen(){
-    console.log("Updating Screen");
-    var that = this;
-    const currentUser = firebase.auth().currentUser.uid;
-    const pairs = []
-    firebase.database().ref(`Users/${currentUser}/Responses`).once('value').then(function(snapshot) {
-      snapshot.forEach((child) => {
-        var pair = {ranking: child.child('ranking').val(), candidate: child.child('candidateName').val()}
-        pairs.push(pair);
+  componentDidMount(){
+    return fetch("https://ml.googleapis.com/v1/projects/CS506FinalProject/models/most_important_issue/versions/mostimportantissuev1:predict", {
+    method: 'POST',
+    headers: {
+    Accept: 'application/json',
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer `gcloud auth print-access-token`'
+  },
+  body: JSON.stringify({
+    instances: '[[4,1,0,4,0,1,3,4,4,3,3,2,3,0,1,0,0,1,0,3],[0,3,3,0,4,3,0,1,0,0,0,0,1,3,3,3,4,3,3,1]]'
+  }),
+}).then((response) => response.json())
+      .then((responseJson) => {
+
+        this.setState({
+          isLoading: false,
+          dataSource: responseJson.predictions,
+        }, function(){
+	      console.log(responseJson);
+        });
+
+      })
+      .catch((error) =>{
+        console.error(error);
       });
-      pairs.sort(function (a, b) {
-        return b.ranking - a.ranking;
-      });
-      that.setState({friends: pairs})
-    });
-  }
-  
-
-  componentDidMount() {
-    this.subs = [
-      this.props.navigation.addListener('willFocus', () => this.updateScreen()),
-      this.props.navigation.addListener('willBlur', () => console.log('will blur')),
-      this.props.navigation.addListener('didFocus', () => console.log('did focus')),
-      this.props.navigation.addListener('didBlur', () => console.log('did blur')),
-    ];
-
-    this.updateScreen();
-  }
-
-  renderItem({item}) {
-    return (
-        <Text style={styles.item}>{item.candidate}</Text>
-      )
   }
 
   render() {
-    if (this.state.loading) {
-      return (
-        <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-          <ActivityIndicator size="large" color="dodgerblue" />
+    if(this.state.isLoading){
+      return(
+        <View style={{flex: 1, padding: 20}}>
+          <ActivityIndicator/>
         </View>
       )
     }
 
     return (
       <View style={styles.container}>
+      <Text>Hello, world!</Text>
+	<FlatList
+          data={this.state.dataSource}
+          renderItem={this._renderItem}
+        />
+<Text>ejrlkejlj</Text>
+
       <Text style={styles.text}>Reccomended Candidates</Text>
         <FlatList
-          data={this.state.friends}
-          renderItem={this.renderItem}
-          //keyExtractor={item => item.key}
+          data={[
+            {key: 'Cory Booker'},
+            {key: 'Donald Trump'},
+            {key: 'Ted Cruz'},
+            {key: 'Kamala Harris'},
+            {key: 'Barack Obama'},
+          ]}
+          renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
         />
 
-<Text style={styles.text}>Top Issues</Text>
-         <FlatList
-           data={[
-             {key: 'Gun Control'},
-             {key: 'Abortion'},
-             {key: 'Foreign Policy'},
-             {key: 'Economy'},
-           ]}
-           renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
-         />
+      <Text style={styles.text}>Top Issues</Text>
+        <FlatList
+          data={[
+            {key: 'Gun Control'},
+            {key: 'Abortion'},
+            {key: 'Foreign Policy'},
+            {key: 'Economy'},
+          ]}
+          renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
+        />
       </View>
     );
-  } 
-}
+  }
 
+
+  
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -109,7 +112,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'black',
     fontWeight: 'bold',
-    fontSize: 24
+    fontSize: 22
   },
 })
 
