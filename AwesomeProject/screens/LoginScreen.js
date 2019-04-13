@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
         color: 'black',
-        fontFamily: 'AmericanTypewriter',
+        //fontFamily: 'AmericanTypewriter',
         fontSize: 40
   },
 
