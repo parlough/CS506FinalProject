@@ -1,0 +1,1132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot renders the loading screen 1`] = `null`;
+
+exports[`App snapshot renders the login screen correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "white",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Vote For You!
+    </Text>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRadius": undefined,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": undefined,
+          "flexDirection": "row",
+          "marginLeft": 15,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 0,
+            "opacity": 1,
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+            "position": "absolute",
+            "right": 0,
+            "top": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#575757",
+              "fontSize": 17,
+              "left": 0,
+              "paddingRight": 5,
+              "paddingTop": 5,
+              "top": 6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+              }
+            }
+          >
+            Email
+          </Text>
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#575757"
+        style={
+          Object {
+            "color": "#000",
+            "flex": 1,
+            "fontSize": 17,
+            "height": 50,
+            "marginLeft": null,
+            "paddingBottom": 7,
+            "paddingLeft": null,
+            "paddingRight": 5,
+            "paddingTop": 3,
+            "top": 10,
+          }
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value=""
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRadius": undefined,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": undefined,
+          "flexDirection": "row",
+          "marginLeft": 15,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 0,
+            "opacity": 1,
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+            "position": "absolute",
+            "right": 0,
+            "top": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#575757",
+              "fontSize": 17,
+              "left": 0,
+              "paddingRight": 5,
+              "paddingTop": 5,
+              "top": 6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+              }
+            }
+          >
+            Password
+          </Text>
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#575757"
+        secureTextEntry={true}
+        style={
+          Object {
+            "color": "#000",
+            "flex": 1,
+            "fontSize": 17,
+            "height": 50,
+            "marginLeft": null,
+            "paddingBottom": 7,
+            "paddingLeft": null,
+            "paddingRight": 5,
+            "paddingTop": 3,
+            "top": 10,
+          }
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value=""
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#007aff",
+          "borderBottomWidth": null,
+          "borderColor": "#007aff",
+          "borderLeftWidth": null,
+          "borderRadius": 57,
+          "borderRightWidth": null,
+          "borderTopWidth": null,
+          "borderWidth": undefined,
+          "color": "black",
+          "elevation": 2,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "opacity": 1,
+          "paddingBottom": 6,
+          "paddingTop": 6,
+          "shadowColor": undefined,
+          "shadowOffset": undefined,
+          "shadowOpacity": undefined,
+          "shadowRadius": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Login
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "justifyContent": "center",
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgba(128,128,128,0.6)",
+            "fontSize": 16,
+          }
+        }
+      >
+        Don't have an account yet? 
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Signup
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`App snapshot renders the ranking screen correctly 1`] = `null`;
+
+exports[`App snapshot renders the review screen correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
+
+exports[`App snapshot renders the root without loading screen 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "height": 1334,
+        },
+        Object {
+          "backgroundColor": "white",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    <View
+      style={Object {}}
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 40,
+            "textAlign": "center",
+          }
+        }
+      >
+        Vote For You!
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderBottomWidth": 1,
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRadius": undefined,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": undefined,
+            "flexDirection": "row",
+            "marginLeft": 15,
+            "marginTop": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "left": 0,
+              "opacity": 1,
+              "paddingBottom": undefined,
+              "paddingTop": undefined,
+              "position": "absolute",
+              "right": 0,
+              "top": 18,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#575757",
+                "fontSize": 17,
+                "left": 0,
+                "paddingRight": 5,
+                "paddingTop": 5,
+                "top": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 17,
+                }
+              }
+            >
+              Email
+            </Text>
+          </Text>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          autoCorrect={false}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          placeholderTextColor="#575757"
+          style={
+            Object {
+              "color": "#000",
+              "flex": 1,
+              "fontSize": 17,
+              "height": 50,
+              "marginLeft": null,
+              "paddingBottom": 7,
+              "paddingLeft": null,
+              "paddingRight": 5,
+              "paddingTop": 3,
+              "top": 10,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value=""
+        />
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "transparent",
+            "borderBottomWidth": 1,
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRadius": undefined,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": undefined,
+            "flexDirection": "row",
+            "marginLeft": 15,
+            "marginTop": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "left": 0,
+              "opacity": 1,
+              "paddingBottom": undefined,
+              "paddingTop": undefined,
+              "position": "absolute",
+              "right": 0,
+              "top": 18,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#575757",
+                "fontSize": 17,
+                "left": 0,
+                "paddingRight": 5,
+                "paddingTop": 5,
+                "top": 6,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "fontSize": 17,
+                }
+              }
+            >
+              Password
+            </Text>
+          </Text>
+        </View>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          autoCorrect={false}
+          editable={true}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          placeholderTextColor="#575757"
+          secureTextEntry={true}
+          style={
+            Object {
+              "color": "#000",
+              "flex": 1,
+              "fontSize": 17,
+              "height": 50,
+              "marginLeft": null,
+              "paddingBottom": 7,
+              "paddingLeft": null,
+              "paddingRight": 5,
+              "paddingTop": 3,
+              "top": 10,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value=""
+        />
+      </View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "stretch",
+            "backgroundColor": "#007aff",
+            "borderBottomWidth": null,
+            "borderColor": "#007aff",
+            "borderLeftWidth": null,
+            "borderRadius": 57,
+            "borderRightWidth": null,
+            "borderTopWidth": null,
+            "borderWidth": undefined,
+            "color": "black",
+            "elevation": 2,
+            "flexDirection": "row",
+            "height": 45,
+            "justifyContent": "center",
+            "marginTop": 20,
+            "opacity": 1,
+            "paddingBottom": 6,
+            "paddingTop": 6,
+            "shadowColor": undefined,
+            "shadowOffset": undefined,
+            "shadowOpacity": undefined,
+            "shadowRadius": undefined,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        >
+          Login
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flexDirection": "row",
+            "flexGrow": 1,
+            "justifyContent": "center",
+            "paddingVertical": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "rgba(128,128,128,0.6)",
+              "fontSize": 16,
+            }
+          }
+        >
+          Don't have an account yet? 
+        </Text>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000000",
+                "fontSize": 16,
+                "fontWeight": "500",
+              }
+            }
+          >
+            Signup
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`App snapshot renders the settings screen correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "#ffff",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#007aff",
+          "borderBottomWidth": null,
+          "borderColor": "#007aff",
+          "borderLeftWidth": null,
+          "borderRadius": 57,
+          "borderRightWidth": null,
+          "borderTopWidth": null,
+          "borderWidth": undefined,
+          "elevation": 2,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "opacity": 1,
+          "paddingBottom": 6,
+          "paddingTop": 6,
+          "shadowColor": undefined,
+          "shadowOffset": undefined,
+          "shadowOpacity": undefined,
+          "shadowRadius": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Sign Out
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`App snapshot renders the signup screen correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+        "height": 1334,
+      },
+      Object {
+        "backgroundColor": "#ffff",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 10,
+      },
+    ]
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontFamily": "AmericanTypewriter",
+          "fontSize": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Vote For You!
+    </Text>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRadius": undefined,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": undefined,
+          "flexDirection": "row",
+          "marginLeft": 15,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 0,
+            "opacity": 1,
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+            "position": "absolute",
+            "right": 0,
+            "top": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#575757",
+              "fontSize": 17,
+              "left": 0,
+              "paddingRight": 5,
+              "paddingTop": 5,
+              "top": 6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+              }
+            }
+          >
+            Name
+          </Text>
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#575757"
+        style={
+          Object {
+            "color": "#000",
+            "flex": 1,
+            "fontSize": 17,
+            "height": 50,
+            "marginLeft": null,
+            "paddingBottom": 7,
+            "paddingLeft": null,
+            "paddingRight": 5,
+            "paddingTop": 3,
+            "top": 10,
+          }
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value=""
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRadius": undefined,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": undefined,
+          "flexDirection": "row",
+          "marginLeft": 15,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 0,
+            "opacity": 1,
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+            "position": "absolute",
+            "right": 0,
+            "top": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#575757",
+              "fontSize": 17,
+              "left": 0,
+              "paddingRight": 5,
+              "paddingTop": 5,
+              "top": 6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+              }
+            }
+          >
+            Email
+          </Text>
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#575757"
+        style={
+          Object {
+            "color": "#000",
+            "flex": 1,
+            "fontSize": 17,
+            "height": 50,
+            "marginLeft": null,
+            "paddingBottom": 7,
+            "paddingLeft": null,
+            "paddingRight": 5,
+            "paddingTop": 3,
+            "top": 10,
+          }
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value=""
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "borderBottomWidth": 1,
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRadius": undefined,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": undefined,
+          "flexDirection": "row",
+          "marginLeft": 15,
+          "marginTop": 15,
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "left": 0,
+            "opacity": 1,
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+            "position": "absolute",
+            "right": 0,
+            "top": 18,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#575757",
+              "fontSize": 17,
+              "left": 0,
+              "paddingRight": 5,
+              "paddingTop": 5,
+              "top": 6,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontSize": 17,
+              }
+            }
+          >
+            Password
+          </Text>
+        </Text>
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#575757"
+        secureTextEntry={true}
+        style={
+          Object {
+            "color": "#000",
+            "flex": 1,
+            "fontSize": 17,
+            "height": 50,
+            "marginLeft": null,
+            "paddingBottom": 7,
+            "paddingLeft": null,
+            "paddingRight": 5,
+            "paddingTop": 3,
+            "top": 10,
+          }
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value=""
+      />
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "stretch",
+          "backgroundColor": "#007aff",
+          "borderBottomWidth": null,
+          "borderColor": "#007aff",
+          "borderLeftWidth": null,
+          "borderRadius": 57,
+          "borderRightWidth": null,
+          "borderTopWidth": null,
+          "borderWidth": undefined,
+          "elevation": 2,
+          "flexDirection": "row",
+          "height": 45,
+          "justifyContent": "center",
+          "marginTop": 20,
+          "opacity": 1,
+          "paddingBottom": 6,
+          "paddingTop": 6,
+          "shadowColor": undefined,
+          "shadowOffset": undefined,
+          "shadowOpacity": undefined,
+          "shadowRadius": undefined,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+          }
+        }
+      >
+        Sign Up
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "justifyContent": "center",
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgba(128,128,128,0.6)",
+            "fontSize": 16,
+          }
+        }
+      >
+        Already have an account?
+      </Text>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000000",
+              "fontSize": 16,
+              "fontWeight": "500",
+            }
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
