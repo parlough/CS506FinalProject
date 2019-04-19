@@ -29,6 +29,19 @@
     },
     "android": {
       "package": "com.compSci506.awesomeApp"
+    },
+
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "uw-madison",
+            "project": "voteforyou",
+            "authToken": "b697cfd81650452cae11d37c86ebb49ba5ac508ffcbe41878a90d6516943acec"
+          }
+        }
+      ]
     }
 
   }
