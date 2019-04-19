@@ -2,6 +2,7 @@ import React from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { AppLoading, Asset, Font, Icon } from 'expo';
 import AppNavigator from './navigation/AppNavigator';
+import Sentry from 'sentry-expo';
 
 import * as firebase from "firebase";
 
@@ -21,6 +22,11 @@ var functions = firebase.functions();
 
 var testApi = firebase.functions().httpsCallable('testApi');
 testApi();
+
+//sentry use
+Sentry.enableInExpoDevelopment = true;
+Sentry.config('https://ad80680289874fd991400feb486fa8a7@sentry.io/1443067').install();
+
 
 export default class App extends React.Component { 
   state = {
